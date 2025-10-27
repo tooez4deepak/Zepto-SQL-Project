@@ -1,21 +1,21 @@
 /*
-===============================================================================
-Stored Procedure: Load Bronze Layer (Source -> Bronze)
-===============================================================================
-Script Purpose:
-    Loads product data from a CSV file into the 'bronze.zepto' table, with logging and error handling
-    This stored procedure loads data into the 'bronze' schema from external CSV files. 
-    It performs the following actions:
-    - Truncates the bronze tables before loading data.
-    - Uses the `BULK INSERT` command to load data from csv Files to bronze tables.
-
-Parameters:
-    None. 
-	  This stored procedure does not accept any parameters or return any values.
-
-Usage Example:
-    EXEC bronze.load_bronze;
-===============================================================================
+	===============================================================================
+	Stored Procedure: Load Bronze Layer (Source -> Bronze)
+	===============================================================================
+	Script Purpose:
+	    Loads product data from a CSV file into the 'bronze.zepto' table, with logging and error handling
+	    This stored procedure loads data into the 'bronze' schema from external CSV files. 
+	    It performs the following actions:
+	    - Truncates the bronze tables before loading data.
+	    - Uses the `BULK INSERT` command to load data from csv Files to bronze tables.
+	
+	Parameters:
+	    None. 
+		  This stored procedure does not accept any parameters or return any values.
+	
+	Usage Example:
+	    EXEC bronze.load_bronze;
+	===============================================================================
 */
 
 CREATE OR ALTER PROCEDURE bronze.load_zepto AS
@@ -70,3 +70,4 @@ END;
 
 -- Execute the procedure to perform the data load
  EXEC bronze.load_zepto;
+
