@@ -1,13 +1,13 @@
 /*
-===============================================================================
-DDL Script: Create Bronze Tables
-===============================================================================
-Script Purpose:
-    Recreate the 'bronze.zepto' table to store raw product data, ensuring no previous version conflicts
-    This script creates tables in the 'bronze' schema, dropping existing tables 
-    if they already exist.
-	  Run this script to re-define the DDL structure of 'bronze' Tables
-===============================================================================
+	===============================================================================
+	DDL Script: Create Bronze Tables
+	===============================================================================
+	Script Purpose:
+	    Recreate the 'bronze.zepto' table to store raw product data, ensuring no previous version conflicts
+	    This script creates tables in the 'bronze' schema, dropping existing tables 
+	    if they already exist.
+		  Run this script to re-define the DDL structure of 'bronze' Tables
+	===============================================================================
 */
 
 -- Drop the table if it already exists in the 'bronze' schema
@@ -27,3 +27,4 @@ CREATE TABLE bronze.zepto (
     outOfStock  VARCHAR(50), -- Indicates availability status
     quantity VARCHAR(50) -- User-specified or standard product quantity
 )
+
