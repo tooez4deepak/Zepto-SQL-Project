@@ -1,19 +1,19 @@
 /*
-===============================================================================
-DDL Script: Create Gold Views
-===============================================================================
-Script Purpose:
-    Create or replace the 'gold.zepto' view to enrich product data with a unique row 
-    key and filter out entries with non-positive MRP
-    This script creates views for the Gold layer in the Zepto_sql_project. 
-    The Gold layer represents the final dimension and fact tables (Star Schema)
-
-    Each view performs transformations and combines data from the Silver layer 
-    to produce a clean, enriched, and business-ready dataset.
-
-Usage:
-    - These views can be queried directly for analytics and reporting.
-===============================================================================
+    ===============================================================================
+    DDL Script: Create Gold Views
+    ===============================================================================
+    Script Purpose:
+        Create or replace the 'gold.zepto' view to enrich product data with a unique row 
+        key and filter out entries with non-positive MRP
+        This script creates views for the Gold layer in the Zepto_sql_project. 
+        The Gold layer represents the final dimension and fact tables (Star Schema)
+    
+        Each view performs transformations and combines data from the Silver layer 
+        to produce a clean, enriched, and business-ready dataset.
+    
+    Usage:
+        - These views can be queried directly for analytics and reporting.
+    ===============================================================================
 */
 
 -- Drop the existing view if it already exists
@@ -41,4 +41,5 @@ WHERE s.mrp > 0; -- Exclude records with zero or negative MRP
 GO
 
 -- Query the resulting view to preview the gold layer output
+
 SELECT * FROM gold.zepto;
