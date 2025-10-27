@@ -25,7 +25,7 @@ Welcome to the Zepto SQL Project, a structured approach to managing, transformin
 
 ## 👤 Author  
 **[Deepak]**  
-Data Analyst | SQL | Tableau | Power BI | Python  
+Data Analyst | SQL | kaggle | Chat GPT  
 🔗 [LinkedIn](https://www.linkedin.com/in/deepakpal18/) | [GitHub](https://github.com/tooez4deepak/Zepto-SQL-Project)  
   
 📌 Next Steps
