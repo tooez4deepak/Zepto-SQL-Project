@@ -22,6 +22,11 @@ Welcome to the Zepto SQL Project, a structured approach to managing, transformin
 - TRY_CAST, REPLACE, LTRIM, RTRIM, ISNUMERIC
 - BULK INSERT, FORMATFILE, ERRORFILE
 - Data visualization with custom-generated icons for clarity and branding
+
+## 👤 Author  
+**[Deepak]**  
+Data Analyst | SQL | Tableau | Power BI | Python  
+🔗 [LinkedIn](https://www.linkedin.com/in/deepakpal18/) | [GitHub](https://github.com/tooez4deepak/Zepto-SQL-Project)  
   
 📌 Next Steps
 - Automate validation scripts for pre-insert quality checks
