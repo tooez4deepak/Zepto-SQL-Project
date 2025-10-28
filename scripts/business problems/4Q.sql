@@ -1,4 +1,4 @@
--- Q4. Find all products where MRP is greater than €500 and discount is less than 10%.
+-- Q4. Find all products where MRP is greater than â‚¬500 and discount is less than 10%.
 
 SELECT DISTINCT
 	name,
