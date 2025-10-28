@@ -9,7 +9,7 @@
         </mxCell>
         <mxCell id="eeY0Dyzwo5bHaXrm77ZO-1" value="bronze.zepto" style="shape=table;startSize=40;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;fontSize=16;fillColor=#ffe6cc;strokeColor=#d79b00;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="400" y="355" width="230" height="391" as="geometry" />
-        </mxCell>
+        </mxCell> 
         <mxCell id="eeY0Dyzwo5bHaXrm77ZO-5" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;fontSize=16;" parent="eeY0Dyzwo5bHaXrm77ZO-1" vertex="1">
           <mxGeometry y="40" width="230" height="39" as="geometry" />
         </mxCell>
